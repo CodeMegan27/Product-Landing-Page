@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Product Landing Page</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header id="header">
+      <img
+        src="https://1000logos.net/wp-content/uploads/2021/08/Noodles-and-Company-Logo-old.png"
+        alt="Logo"
+        id="header-img"
+        loading="lazy"
+      />
+      <nav id="nav-bar">
+        <ul class="lists">
+          <li class="list-item">
+            <a href="#features" class="nav-link">Features</a>
+          </li>
+          <li class="list-item">
+            <a href="#premium" class="nav-link">Premium</a>
+          </li>
+          <li class="list-item">
+            <a href="#feedback" class="nav-link">Feedback</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <section id="features">
+      <div class="space-filler"></div>
+      <ul class="feature-list">
+        <li class="feature-item">
+          <img src="Images/noodles.png" alt="noodles-logo" />
+          <div class="text-content">
+            <h3 class="text-title">Noodle Customization Tool:</h3>
+            <p class="text-description">
+              Create an interactive noodle customization tool on your website or
+              app that allows customers to build their own noodle dishes from
+              scratch. Users can choose the type of noodles, broth, protein,
+              vegetables, toppings, and sauces to create a personalized bowl of
+              noodles. This feature not only caters to individual tastes but
+              also encourages customer engagement and repeat orders.
+            </p>
+          </div>
+        </li>
+
+        <li class="feature-item">
+          <img src="Images/premium.png" alt="subscription-logo" />
+          <div class="text-content">
+            <h3 class="text-title">Noodle Subscription Service:</h3>
+            <p class="text-description">
+              Offer a subscription service where customers can sign up for
+              regular noodle deliveries. Subscribers can select their favorite
+              noodle dishes and customize delivery frequencies (e.g., weekly,
+              bi-weekly, monthly). This feature promotes customer loyalty and
+              ensures a steady stream of orders. It can also simplify meal
+              planning for subscribers.
+            </p>
+          </div>
+        </li>
+
+        <li class="feature-item">
+          <img src="Images/cook.png" alt="cooking-icon" />
+          <div class="text-content">
+            <h3 class="text-title">Virtual Noodle Cooking Classes:</h3>
+            <p class="text-description">
+              Host virtual noodle cooking classes or tutorials on your website
+              or app. Invite professional chefs or experienced cooks to
+              demonstrate how to prepare various noodle dishes, including both
+              traditional and unique recipes. Customers can sign up for these
+              classes, learn cooking techniques, and gain inspiration for using
+              your noodles in creative ways. This feature can also include a
+              library of recorded classes for on-demand learning.
+            </p>
+          </div>
+        </li>
+      </ul>
+    </section>
+    <section class="video-container">
+      <iframe
+        id="video"
+        width="560"
+        height="315"
+        src="https://www.youtube.com/embed/f2kesmAO8VU?si=zoJSw2FjUMG_gVfQ"
+        title="YouTube video player"
+        frameborder="0"
+        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+        allowfullscreen
+      ></iframe>
+      <div class="stand-middle"></div>
+      <div class="stand-bottom"></div>
+    </section>
+    <div class="space-filler"></div>
+    <section id="premium">
+      <div class="membership">
+        <h3 class="membership-title basic">Basic Membership: Noodle Lover</h3>
+        <ul class="mem-features">
+          <li class="mem-feature-item">Exclusive Discounts</li>
+          <li class="mem-feature-item">Early Access</li>
+          <li class="mem-feature-item">Recipe E-Book</li>
+          <li class="mem-feature-item">Monthly Newsletter</li>
+          <li class="mem-feature-item">Birthday Surprise</li>
+          <li class="mem-feature-item">Community Forum</li>
+        </ul>
+      </div>
+      <div class="membership">
+        <h3 class="membership-title silver">
+          Silver Membership: Noodle Connoisseur
+        </h3>
+        <ul class="mem-features">
+          <li class="mem-feature-item">All Basic Membership Benefits</li>
+          <li class="mem-feature-item">Premium Discounts</li>
+          <li class="mem-feature-item">Exclusive Noodle Tastings</li>
+          <li class="mem-feature-item">Personalized Recipe Suggestions</li>
+          <li class="mem-feature-item">Priority Customer Support</li>
+          <li class="mem-feature-item">Noodle Merchandise</li>
+        </ul>
+      </div>
+      <div class="membership">
+        <h3 class="membership-title gold">Gold Membership: Noodle VIP</h3>
+        <ul class="mem-features">
+          <li class="mem-feature-item">
+            All Basic and Silver Membership Benefits
+          </li>
+          <li class="mem-feature-item">VIP Noodle Selection</li>
+          <li class="mem-feature-item">Dinner with the Chef</li>
+          <li class="mem-feature-item">Noodle Subscription Box</li>
+          <li class="mem-feature-item">Private Cooking Class</li>
+          <li class="mem-feature-item">Noodle Ambassador</li>
+        </ul>
+      </div>
+    </section>
+    <div class="space-filler hidden"></div>
+    <section id="feedback">
+      <h2 class="feedback-title">Feedback</h2>
+      <form id="form" action="https://www.freecodecamp.com/email-submit">
+        <input type="text" name="name" id="name" placeholder="Enter a Name">
+        <input type="email" name="email" id="email" placeholder="Enter E-Mail Address">
+        <textarea name="message" id="message" cols="30" rows="10" placeholder="Message..."></textarea>
+        <input type="submit" id="submit">Submit</input>
+      </form>
+    </section>
+    <div class="space-filler"></div>
+  </body>
+</html>
